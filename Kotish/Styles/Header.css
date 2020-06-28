@@ -1,0 +1,42 @@
+﻿@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('../Fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+}
+
+body {
+    overflow-x:hidden;
+}
+
+.header{
+    padding:3%;
+    justify-content:flex-start;
+    display:flex;
+    align-content:flex-start
+}
+
+.company-logo{
+    height:3vh;
+}
+
+.title {
+    font-family: Poppins-SemiBold;
+    font-size: x-large;
+    color: #808080;
+}
+
+.Add-New-Button {
+    font-family: Poppins-SemiBold;
+    position: absolute;
+    margin-top:0.5%;
+    right: 15%;
+    color:gray;
+}
+
+.back-to-menu{
+    font-family:Poppins;
+    position:absolute;
+    top:12%;
+    color:lightgray;
+    font-size:small;
+    cursor:pointer;
+}

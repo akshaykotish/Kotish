@@ -1,0 +1,43 @@
+﻿@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('../Fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+}
+
+.big-title {
+    width: 100vw;
+    height: 10vh;
+    font-size: x-large;
+    font-family: Poppins-SemiBold;
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 2%;
+    color: #808080;
+}
+
+.very-big-title {
+    width: 100vw;
+    height: 10vh;
+    font-family: Poppins-SemiBold;
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 2%;
+    color: #808080;
+    font-size:40pt;
+}
+
+.gray-small-title{
+    padding:2%;
+    font-size:x-large;
+    color: #808080;
+}
+
+.akshay-kotish-company-title {
+    font-family: 'Century Gothic';
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 4%;
+    font-size: 15pt;
+    color: #808080;
+}

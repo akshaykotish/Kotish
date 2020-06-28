@@ -1,0 +1,18 @@
+﻿.pin-box {
+    padding: 1em;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-flow: wrap;
+}
+
+    .pin-box .pin-input-item{
+        border-radius:8px;
+        padding:0.2em;
+        margin:0.2em;
+        width:2vw;
+        height:5vh;
+        border:solid 1px gray;
+        text-align:center;
+        outline:none;
+    }

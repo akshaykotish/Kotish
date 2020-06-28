@@ -1,0 +1,72 @@
+﻿:root {
+    --background-color: white;
+    --font-color: black;
+}
+
+body {
+    background-color: var(--background-color);
+    overflow:hidden;
+}
+
+.fullcover {
+    position: fixed;
+    top: 2%;
+    bottom: 2%;
+    left: 2%;
+    right: 2%;
+    background-color: var(--background-color);
+    padding: 2%;
+}
+
+.header{
+    position:absolute;
+    left:2%;
+    right:2%;
+    bottom:2%;
+    height:20vh;
+    background-color: var(--background-color);
+}
+
+
+.downbody {
+    position: absolute;
+    left: 2vw;
+    right: 2vw;
+    bottom: -2vw;
+    height: 25vh;
+    overflow:auto;
+    background-color:none;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+.itsbutton {
+    box-shadow: -2px -2px 8px rgba(255, 255, 255, 1), -2px -2px 12px rgba(255, 255, 255, 0.5), inset 2px 2px 4px rgba(255, 255, 255, 0.1), 2px 2px 8px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    font-size: 5px;
+    border-radius: 50%;
+    -webkit-filter: grayscale(60%); 
+    filter: grayscale(60%);
+}
+
+    .itsbutton:hover {
+        -webkit-filter: grayscale(20%);
+        filter: grayscale(20%);
+    }
+
+    .itsbutton .text {
+        font-size: small;
+    }
+
+    .upperbody {
+    }

@@ -1,0 +1,109 @@
+﻿@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('../Fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins-Regular', sans-serif;
+}
+
+body {
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    vertical-align:central;
+}
+
+.main-sudr{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width:20vw;
+    height:20vw;
+    border-radius:50%;
+}
+
+.center-sudr {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 50%;
+}
+
+.edge-sudr {
+    left: 17.5%;
+    top: 17.5%;
+    position: absolute;
+    width: 13vw;
+    height: 13vw;
+    transform: translate(-50%, -50%);
+    opacity:0.8;
+    border-radius:20px;
+}
+
+.one {
+    transform: skew(180deg, 180deg) rotate(0deg);
+    background-color: violet;
+}
+
+.two {
+    transform: skew(180deg, 180deg) rotate(40deg);
+    background-color: indigo;
+}
+
+.three {
+    transform: skew(180deg, 180deg) rotate(80deg);
+    background-color: blue;
+}
+
+.four {
+    transform: skew(180deg, 180deg) rotate(120deg);
+    background-color: green;
+}
+
+.five {
+    transform: skew(180deg, 180deg) rotate(160deg);
+    background-color: yellow;
+}
+
+.six {
+    transform: skew(180deg, 180deg) rotate(200deg);
+    background-color: orange;
+}
+
+.seven {
+    transform: skew(180deg, 180deg) rotate(240deg);
+    background-color: red;
+}
+
+.eight {
+    transform: skew(180deg, 180deg) rotate(280deg);
+    background-color:greenyellow;
+}
+
+.nine {
+    transform: skew(180deg, 180deg) rotate(320deg);
+    background-color: whitesmoke;
+}
+
+.center-title {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    font-size: 15pt;
+    text-align: center;
+    font-family: 'Poppins-Regular', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #5a84a2;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-transform: uppercase;
+}

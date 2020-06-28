@@ -1,0 +1,59 @@
+﻿@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('../../Fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins-Regular', sans-serif;
+}
+
+
+.button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #5a84a2;
+    font-size: 18px;
+    border-radius: 40px;
+    box-shadow: -2px -2px 8px rgba(255, 255, 255, 1), -2px -2px 12px rgba(255, 255, 255, 0.5), inset 2px 2px 4px rgba(255, 255, 255, 0.1), 2px 2px 8px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+    .button:hover {
+        box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 1), inset -2px -2px 12px rgba(255, 255, 255, 0.5), inset 2px 2px 4px rgba(255, 255, 255, 0.1), inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+        .button:hover span {
+            display: inline-block;
+            transform: scale(0.98);
+        }
+
+.round-button {
+    height: 50px;
+    width: 50px;
+    -webkit-appearance: none;
+    box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5),
+        10px 10px 15px rgba(70, 70, 70, 0.12);
+    border-radius: 50%;
+    background-color:#ececec;
+    border: 8px solid #ececec;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.round-button:hover{
+    color:#7a7a7a;
+}
+
+    .round-button:active {
+        box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5), 10px 10px 15px rgba(70, 70, 70, 0.12), inset -10px -10px 15px rgba(70, 70, 70, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+    }
